@@ -54,6 +54,7 @@ int main(){
 	circle c;
 	square sq;
 	rectangle r;
+	s[0] = NULL;
 	s[1] = &c;
 	s[2] = &r;
 	s[3] = &sq;
