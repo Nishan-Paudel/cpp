@@ -3,15 +3,15 @@
 #include <vector>
 
 using namespace std;
-void display(vector <int>&v2){
+void display(vector<int> &v2){
 	cout<<"The contents of v2 is"<<endl;
 	for(int i=0; i<v2.size(); i++){
 		cout<<v2[i]<<endl;
 	}
 }
 
-void displaylist (list <int> &l){
-	list<int> :: iterator p;
+void displaylist (list<int> &l){
+	list<int>::iterator p;
 	cout<<"The contents of List are "<<endl;
 	for (p=l.begin();p != l.end(); p++)
 		cout<<*p<<endl;
