@@ -22,12 +22,10 @@ public:
 			//cout<<a[i];
 		}
 		for(i=n-1; i>=0; i--){
-			//cout<<"fakjsd\n";
 			if(a[i] > '9'){
 				t = a[i] -87;
-				//cout<<"t= "<<t<<endl;
 				val = val + (t*j);
-				//cout<<"Val = "<<val<<endl;
+				
 			}
 
 			else{
